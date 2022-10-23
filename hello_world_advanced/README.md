@@ -27,4 +27,4 @@ Or use this command:
 ./package.sh
 ```
 
-Once this is done, you can use the `hello_world_app.zip` to push it to our platform.
+Once this is done, you can use the `app.zip` to push it to our platform.
