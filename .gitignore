@@ -164,3 +164,14 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Custom
+## AWS Lambda
+*.zip
+package/
+
+## Priceloop
+upload.sh
+
+## Misc
+.DS_Store
