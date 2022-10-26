@@ -18,6 +18,5 @@ def return_fake_name(row, faker_provider, valid_args=faker_args):
     return fake.name()
 
 def handler(event, context):
-  arg_two = list(map(lambda row: row[1], event["BatchedArgs"]))[0]
-  arg_one = list(map(lambda row: return_fake_name(row[0],  arg_two), event["BatchedArgs"]))
+  arg_one = list(map(lambda row: return_fake_name(row[0],  row[1]), event["BatchedArgs"]))
   return arg_one
