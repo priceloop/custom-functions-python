@@ -1,10 +1,19 @@
 # 🧶 Priceloop NoCode Python External Functions Templates
 
-You can create your own functions and then call them inside our [NoCode table](https://priceloop.ai/nocode), just like a builtin function. Here are some easy examples that you can use to write your own functions. Some of them are also deployed on our platform.
+You can create your own functions and then call them inside our [NoCode table](https://priceloop.ai/nocode), just like a built-in function. Here are some easy examples that you can use to write your own functions. Some of them are also deployed on our platform.
 
-### Deployment
+https://user-images.githubusercontent.com/3866530/200024328-ea5cad88-c930-4544-a9d4-9838437978f0.mp4
 
-The easiest way to deploy our external functions are via our cli:
+### Getting Started
+
+Let's start with creating a Python environment first. You can use `virtualenv` or `conda` to do this. At the moment, we only support Python 3.8 due to the pre-built lambda layer:
+
+```bash
+conda create -n my_example python=3.8
+source activate my_example
+```
+
+The easiest way to deploy our external functions is via our cli:
 
 ```bash
 npm install -g @priceloop/cli
