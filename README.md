@@ -1,8 +1,8 @@
-# 🧶 Priceloop NoCode Python External Functions Templates
+# 🧶 Priceloop NoCode Python Custom Functions Templates
 
 You can create your own functions and then call them inside our [NoCode table](https://priceloop.ai/nocode), just like a built-in function. Here are some easy examples that you can use to write your own functions. Some of them are also deployed on our platform.
 
-https://user-images.githubusercontent.com/3866530/200024328-ea5cad88-c930-4544-a9d4-9838437978f0.mp4
+<https://user-images.githubusercontent.com/3866530/200024328-ea5cad88-c930-4544-a9d4-9838437978f0.mp4>
 
 ### Getting Started
 
@@ -13,7 +13,7 @@ conda create -n my_example python=3.8
 source activate my_example
 ```
 
-The easiest way to deploy our external functions is via our cli:
+The easiest way to deploy our custom functions is via our cli:
 
 ```bash
 npm install -g @priceloop/cli
@@ -36,7 +36,7 @@ After these steps, your new function will be available inside the specified work
 
 Go to the app and type a new formula: `\my_example('World')`. It should return “Hello World”.
 
-More information on how to deploy it to our platform please also go to our [documentation](https://priceloopai.notion.site/External-Functions-f78d153ab7b94a5f8a2f2cc5baa5e9d3).
+More information on how to deploy it to our platform please also go to our [documentation](https://docs.priceloop.ai/custom_functions).
 
 ### Testing
 

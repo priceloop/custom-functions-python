@@ -1,0 +1,3 @@
+{
+    "BatchedArgs": [["Extract name from email: dat.tran@priceloop.ai", "<openai-key>"], ["Extract name from email: mark.zuckerberg@facebook.com", "<openai-key>"]]
+}
